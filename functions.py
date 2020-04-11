@@ -52,7 +52,7 @@ def color_p_value(value):
   green if p-value<0.05, else red.
   """
 
-  if value < 0.05:
+  if (value < 0.05) | (value<0):
     color = 'green'
   else:
     color = 'red'
