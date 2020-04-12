@@ -58,3 +58,13 @@ def color_p_value(value):
     color = 'red'
 
   return 'color: %s' % color
+#--------------------------------------------------------
+# Function to factorize the average temperature
+def factor_hum(val):
+    if (val>=30) & (val<=50):
+        return '30-50'
+    elif val<30:
+        return '<30'
+    else:
+        return '>50'
+#--------------------------------------------------------
