@@ -4,9 +4,10 @@
 Created on Mon Mar 30 22:41:14 2020
 This scrip resume all the functions that I used in the Coronavirus Project.
 These functions are:
-    1. 
+    1. transform_dtypes: Transform the data type to the correct format
+    2. 
 
-@author: yasel (88yasel@gmail.com)
+@author: Yasel (88yasel@gmail.com)
 """
 #--------------------------------------------------------
 import pandas as pd
