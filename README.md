@@ -8,4 +8,5 @@ With more than 775 748 peoples infected and 37109 deaths (03/30/2020) and with a
 3. What happens with the virus at different atmospheric pressures?
 
 ## File Description
-
+* This project was developed in Python and the main file that contain all the analysis is a Jupyter notebook ("Has the weather an impact on the spread of the coronavirus?"). 
+	* I only used classical libraries for data analysis and visualization, like `numpy`, `pandas`, `matplotlib`, `seaborn` and `scipy` for the statistical analysis.
