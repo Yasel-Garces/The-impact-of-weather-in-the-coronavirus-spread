@@ -12,7 +12,8 @@ With more than 775 748 peoples infected and 37109 deaths (03/30/2020) and with a
 
 # File Description
 * This project was developed in Python 3, and all the results and codes are included in the Jupyter notebook named "_Has the weather an impact on the spread of the coronavirus?_".
-	* Only classical libraries for data analysis and visualization were used (like `numpy`, `pandas`, `matplotlib`, `seaborn` and `scipy` for the statistical analysis).
+	* Mostly classical libraries for data analysis and visualization were used (like `numpy`, `pandas`, `matplotlib`, `seaborn` and `scipy` for the statistical analysis).
+	* Also, the library `scikit-posthocs` was used for the posthoc analysis. See details about installation and use [here](https://scikit-posthocs.readthedocs.io/en/latest/installation/).
 * "_functions.py_": It includes some utility functions that were used in the notebook.
 * Directory "_Weather_": This directory is composed of 10 csv files. Each file contains the weather information for one city from December 2019 to March 30, 2020 (121 observations), condensed into 18 variables. See the section "Weather data" in the notebook for details.
 * Directory "_novel-corona-virus-2019-dataset_": It contains daily level information about the new cases, deaths, and recovery by country. This dataset was obtained from [Kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset). Please, go through this link for more information about this dataset.
